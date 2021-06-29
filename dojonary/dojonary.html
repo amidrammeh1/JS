@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Dojonary</h1>
+        <ul class="nav-links">
+            <li class="a">Search</li>
+            <li><button class="btn">Login</button></li>
+
+        </ul>
+    </div>
+    <div class="container">
+        <div class= "col">
+        <div class="row">
+         <div class="body">
+            <h1>ninja</h1>
+            <img src="pronunciation.png" alt="pronounciation image">
+            <p><i>noun</i></p>
+            <ul>
+              <li>A practitioner skilled in the Japanese art of ninjutsu</li>
+              <li>A programmer who breaks down problems with zen-like focus</li>
+              <li><button class="yellow">13 likes</button></li>
+            </ul>
+         </div>  
+         <div class="body">
+                <h1>ninja</h1>
+                <img src="pronunciation.png" alt="pronounciation image">
+                <p><i>noun</i></p>
+                <ul>
+                  <li>A practitioner skilled in the Japanese art of ninjutsu</li>
+                  <li>A programmer who breaks down problems with zen-like focus</li>
+                  <li><button class="yellow"onlick="likeAlert()">13 likes</button></li>
+                </ul>
+         </div> 
+        </div>
+    </div>
+
+        <div class="right-col">
+            <div class="card-body">
+                <h2>Dojonary is defined by YOU</h2>
+                <button id="btn-2" onclick="removeDefinition()">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
