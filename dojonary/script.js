@@ -2,11 +2,14 @@ function likeAlert(e){
   alert("Ninja was liked!");
 }
 
-function logOut(){
-
+function logOut(element){
+if(element.innerText == "Login"){
+  element.innerText == "Logout"
+} else {
+  element.innerText = "Login"
+}
 }
 
-function removeDefinition(){
-var e = document.getElementbyId("btn-2");
+function removeDefinition(e){
 e.remove();
 }

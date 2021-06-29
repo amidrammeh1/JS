@@ -12,7 +12,7 @@
         <h1>Dojonary</h1>
         <ul class="nav-links">
             <li class="a">Search</li>
-            <li><button class="btn">Login</button></li>
+            <li><button class="btn" onclick="logOut(this)">Login</button></li>
 
         </ul>
     </div>
@@ -26,7 +26,7 @@
             <ul>
               <li>A practitioner skilled in the Japanese art of ninjutsu</li>
               <li>A programmer who breaks down problems with zen-like focus</li>
-              <li><button class="yellow">13 likes</button></li>
+              <li><button class="yellow" onclick="likeAlert()">13 likes</button></li>
             </ul>
          </div>  
          <div class="body">
@@ -36,7 +36,7 @@
                 <ul>
                   <li>A practitioner skilled in the Japanese art of ninjutsu</li>
                   <li>A programmer who breaks down problems with zen-like focus</li>
-                  <li><button class="yellow"onlick="likeAlert()">13 likes</button></li>
+                  <li><button class="yellow"onclick="likeAlert()">13 likes</button></li>
                 </ul>
          </div> 
         </div>
@@ -45,7 +45,7 @@
         <div class="right-col">
             <div class="card-body">
                 <h2>Dojonary is defined by YOU</h2>
-                <button id="btn-2" onclick="removeDefinition()">Add Definition</button>
+                <button id="btn-2" onclick="removeDefinition(this)">Add Definition</button>
             </div>
         </div>
     </div>
